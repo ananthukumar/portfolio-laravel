@@ -177,8 +177,9 @@
             <!-- {/* </Link> */} -->
             <!-- {/* <Link to="/siaaha"> */} -->
             <div class="card__wrap p-3 md:p-5 border mb-5">
+
                 <div class="zoom__img overflow-hidden">
-                    <img src="{{asset('assets/siaha.jpg')}}" alt="" />
+                    <img src="{{asset('assets/siahaa.jpg')}}" alt="" />
                 </div>
                 <div class="text__wrap mt-3">
                     <div class="flex justify-between">
