@@ -14,12 +14,12 @@
                         mrananthu.c@gmail.com</p>
                     <div class="flex gap-10 mt-5 md:mt-0 justify-center">
                         <a href="" class="">
-                            <FaLinkedinIn size={40} class="text-white" />
+                           
                         </a>
                         <a href="">
-                            <FaInstagram size={40} class="text-white" /></a>
+                            
                         <a href="">
-                            <FaBehance size={40} class="text-white" /></a>
+                          
                     </div>
                 </div>
             </div>
