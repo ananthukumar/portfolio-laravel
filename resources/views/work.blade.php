@@ -14,7 +14,8 @@
                     <p class="md:mt-5 max-w-xl text-lg md:text-xl">A UI/UX designer passionate about creating simple yet
                         innovative experiences for users.
                     </p>
-                </div>
+                </div> 
+                
             </div>
         </div>
     </section>
