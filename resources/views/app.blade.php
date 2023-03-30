@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MR Ananthu</title>
+        <title>MR ANANTHU</title>
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link rel="icon" type="image/x-icon" href="{{asset('assets/')}}">
