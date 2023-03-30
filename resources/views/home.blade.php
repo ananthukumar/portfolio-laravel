@@ -44,6 +44,7 @@
                     <img src="{{asset('assets/works/e2.jpg')}}" alt="" />
                 </a>
             </div>
+            
 
         </div>
         <div class="card__wrap mb-5">
@@ -79,9 +80,6 @@
         
     </div>
 </section>
-
-
-
 
 <div class="resume flex justify-center pt-36">
     <a href="{{ url('work') }}">
