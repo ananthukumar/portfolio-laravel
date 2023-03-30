@@ -1,0 +1,1 @@
+.style__show .card__wrap{transition:all .5s cubic-bezier(.67,0,.285,1)}.style__show .card__wrap:hover{transform:skew(-2deg)}.style__show .card__wrap:hover img{scale:1.1}.style__show .card__wrap img{transition:all .5s cubic-bezier(.67,0,.285,1)}

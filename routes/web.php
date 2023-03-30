@@ -22,3 +22,6 @@ Route::get('about', function () {
 Route::get('work', function () {
     return view('work');
 });
+Route::get('bankit', function () {
+    return view('works.bankit');
+});

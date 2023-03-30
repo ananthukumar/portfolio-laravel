@@ -1,0 +1,16 @@
+.style__show{
+    .card__wrap{
+        transition: all .5s cubic-bezier(.67,0,.285,1);
+        &:hover{
+            -webkit-transform: skew(-10deg);
+            transform: skew(-2deg);
+            img{
+                scale: 1.1;
+            }
+        }
+        img{
+            transition: all .5s cubic-bezier(.67,0,.285,1);
+        }
+     
+    }
+}

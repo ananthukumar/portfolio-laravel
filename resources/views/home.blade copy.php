@@ -29,59 +29,56 @@
 </section>
 
 <section class="px-5 md:px-36 pt-10 md:pt-36 mx-auto">
-    <div class="grid sm:grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center style__show">
-        <div class="card__wrap mb-5">
+    <div class="md:grid grid-cols-2 gap-20 items-center">
+        <div class="md:flex relative">
             <div class="zoom__img overflow-hidden">
-                <a href="">
-                    <img src="{{asset('assets/e1.jpg')}}" alt="" />
-                </a>
+                <div class="p-3 border ">
+                    <img src="{{asset('assets/bankit.jpg')}}" class="object-cover rounded-sm w-full h-full bg-cover"
+                        alt="" />
+                </div>
             </div>
-
-        </div>
-        <div class="card__wrap mb-5">
-            <div class="zoom__img overflow-hidden">
-                <a href="">
-                    <img src="{{asset('assets/e2.jpg')}}" alt="" />
-                </a>
-            </div>
-
-        </div>
-        <div class="card__wrap mb-5">
-            <div class="zoom__img overflow-hidden">
-                <a href="">
-                    <img src="{{asset('assets/e3.jpg')}}" alt="" />
-                </a>
-            </div>
-
         </div>
 
-        <div class="card__wrap mb-5">
-            <div class="zoom__img overflow-hidden">
-                <a href="">
-                    <img src="{{asset('assets/e5.jpg')}}" alt="" />
-                </a>
+        <div class="text-lg md:text-2xl my-10">
+            <h2 class="mb-3 text-3xl md:text-3xl font-semibold">Bankkit</h2>
+            <p class="mb-3 text-lg text-[#8f9193]">This project is for the financial company that offers banking
+                services.
+                It offers features like currency exchange, debit card, stock trading, cryptocurrency, peer to peer
+                payment.</p>
+            <div class="mt-5 md:mt-8">
+
+                <button
+                    class="flex items-center gap-3 px-5 md:px-7 py-2 md:py-3 bg-[#f2f2f2] rounded-3xl text-md md:text-lg hover:bg-[#fff] transition 
+                            ease-in-out delay-50 hover:-translate-x-1 hover:text-black hover:border-2 hover:border-[#000]">View
+                    Case
+                    <span><img src="" alt="" /></span>
+                </button>
+
             </div>
         </div>
-        <div class="card__wrap mb-5">
-            <div class="zoom__img overflow-hidden">
-                <a href="">
-                <img src="{{asset('assets/e4.jpg')}}" alt="" />
-                </a>
-            </div>
-        </div>
-        <div class="card__wrap mb-5">
-            <div class="zoom__img overflow-hidden">
-                <a href="">
-                <img src="{{asset('assets/e6.jpg')}}" alt="" />
-                </a>
-            </div>
-        </div>
-        
     </div>
 </section>
 
 
-
+<section class="px-5 md:px-36 pt-10 md:pt-36 mx-auto">
+    <div class="md:grid grid-cols-2 gap-20 items-center">
+        <div class="md:flex relative overflow-hidden style__show">
+            <div class="p-3 border zoom__img overflow-hidden">
+                <img src="{{asset('assets/meeturdreams.jpg')}}" class="object-cover rounded-sm w-full h-full bg-cover"
+                    alt="" />
+            </div>
+        </div>
+        <div class="text-lg md:text-2xl ">
+            <h2 class="mb-3 text-3xl md:text-3xl font-semibold my-10">MeetUrDreams</h2>
+            <p class="mb-3 text-lg text-[#8f9193]">Meet Your Dream is a Video Conference app and video Conference
+                platform.
+                which have a mobile app, web application and admin.
+            </p>
+            <div class="mt-5 md:mt-8">
+            </div>
+        </div>
+    </div>
+</section>
 
 <div class="resume flex justify-center pt-36">
     <a href="{{ url('work') }}">
