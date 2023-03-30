@@ -25,7 +25,7 @@
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                        <img src="{{asset('assets/works/e1.jpg')}}" alt="" />
+                        <img src="{{asset('assets/ee1.jpg')}}" alt="" />
                     </a>
                 </div>
 
@@ -33,7 +33,7 @@
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e2.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee2.jpg')}}" alt="" />
                     </a>
                 </div>
 
@@ -41,7 +41,7 @@
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e3.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee3.jpg')}}" alt="" />
                     </a>
                 </div>
 
@@ -50,21 +50,21 @@
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e5.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee5.jpg')}}" alt="" />
                     </a>
                 </div>
             </div>
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e4.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee4.jpg')}}" alt="" />
                     </a>
                 </div>
             </div>
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e6.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee6.jpg')}}" alt="" />
                     </a>
                 </div>
             </div>
@@ -72,21 +72,21 @@
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e7.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee7.jpg')}}" alt="" />
                     </a>
                 </div>
             </div>
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e8.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee8.jpg')}}" alt="" />
                     </a>
                 </div>
             </div>
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
-                    <img src="{{asset('assets/works/e9.jpg')}}" alt="" />
+                    <img src="{{asset('assets/ee9.jpg')}}" alt="" />
                     </a>
                 </div>
             </div>
