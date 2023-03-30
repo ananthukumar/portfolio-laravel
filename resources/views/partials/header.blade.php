@@ -7,7 +7,7 @@
             </div>
 
             <div>
-                <div class=" z-50 bg-black w-full h-full text-white top-0 right-0 left-0 bottom-0 overflow-hidden hidden menu__btn">
+                <div class=" z-50 absolute bg-black w-full h-full text-white top-0 right-0 left-0 bottom-0 overflow-hidden hidden menu__btn">
                     <ul class="grid place-content-center h-screen text-center gap-10">
                         <a href="{{ url('work') }}">
                             <li class="hover:tracking-widest transition-all uppercase text-5xl">
@@ -26,7 +26,7 @@
                         </a>
                     </ul>
 
-                    <span class="absolute text-white right-5 top-5">Close</span>
+                    <span class="absolute text-white right-5 top-5 close">Close</span>
                 </div>
 
                 <div class="hidden md:block">
@@ -49,7 +49,7 @@
                     </ul>
                 </div>
 
-                <div class="block md:hidden">
+                <div class="block md:hidden ham">
                     <span class="block h-0.5 w-7 animate-pulse mb-2 bg-gray-900"></span>
                     <span class="block h-0.5 w-7 animate-pulse mb-2 bg-gray-900"></span>
                     <span class="block h-0.5 w-7 animate-pulse mb-2 bg-gray-900"></span>
