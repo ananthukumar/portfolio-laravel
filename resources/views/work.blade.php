@@ -15,14 +15,13 @@
                         innovative experiences for users.
                     </p>
                 </div> 
-                
+
             </div>
         </div>
     </section>
 
     <section class="px-5 md:px-36 pt-10 md:pt-24">
         <div class="grid sm:grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 style__show">
-
             <div class="card__wrap mb-5">
                 <div class="zoom__img overflow-hidden">
                     <a href="">
