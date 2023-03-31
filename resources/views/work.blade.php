@@ -90,6 +90,20 @@
                     </a>
                 </div>
             </div>
+            <div class="card__wrap mb-5">
+                <div class="zoom__img overflow-hidden">
+                    <a href="">
+                    <img src="{{asset('assets/ee10.jpg')}}" alt="" />
+                    </a>
+                </div>
+            </div>
+            <div class="card__wrap mb-5">
+                <div class="zoom__img overflow-hidden">
+                    <a href="">
+                    <img src="{{asset('assets/ee11.jpg')}}" alt="" />
+                    </a>
+                </div>
+            </div>
 
 
 
