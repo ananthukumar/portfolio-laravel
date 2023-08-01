@@ -4,7 +4,7 @@
                 <div class="pb-10 md:pb-24">
                     <div class="md:flex items-center gap-10">
                         <p class=" text-md flex gap-4 items-center pb-6 md:pb-0">About Me <span class="w-[40px] h-[1px] bg-black flex"></span></p>
-                        <h2 class="text-5xl md:text-8xl font-bold">Who am I ?</h2>
+                        <h2 class="text-5xl md:text-8xl uppercase">Who am I ?</h2>
                     </div>
 
                     <div class="md:grid grid-cols-12 md:mt-20 mt-5">
@@ -21,7 +21,7 @@
                 <div class="md:pt-36 pt-10">
                     <div class="md:flex items-center gap-10">
                         <p class=" text-md flex gap-4 items-center">My Past  <span class="w-[40px] h-[1px] bg-black flex"></span></p>
-                        <h2 class="text-5xl md:text-7xl font-semibold mt-5 md:mt-0">Last experience</h2>
+                        <h2 class="text-5xl md:text-7xl uppercase mt-5 md:mt-0">Last experience</h2>
                     </div>
 
                     <div class="md:grid grid-cols-12 mt-8 md:mt-20">
@@ -41,7 +41,7 @@
                                     </ul> */} -->
                                     <div class=" pt-2 mb-10 md:mb-0 md:pt-5">
                                         <p class="font-semibold text-sm mb-1">UI/UX DESIGNER & UI DEVELOPER</p>
-                                        <p> 2020 / 2023 (Present) </p>
+                                        <p> 2020 / 2023 </p>
                                     </div>
                                 </div>
                                 <div>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="md:col-span-10 md:grid grid-cols-2 gap-16">
                                 <div>
-                                    <h1 class="text-[8rem] leading-[8rem] font-bold">UI</h1>
+                                    <h1 class="text-[8rem] leading-[8rem] uppercase">UI</h1>
                                     <ul class="list-disc mt-10 text-lg">
                                         <li class="mb-2">Creating wireframes, prototypes, and high-fidelity mockups.</li>
                                         <li class="mb-2">Selecting typography, colors, and other visual elements.</li>
@@ -84,7 +84,7 @@
                                     </ul>
                                 </div>
                                 <div>
-                                    <h1 class="text-[8rem] leading-[8rem] font-bold">UX</h1>
+                                    <h1 class="text-[8rem] leading-[8rem] uppercase">UX</h1>
                                     <ul class="list-disc mt-10 text-lg">
                                         <li class="mb-2">Improving the overall user experience of digital products.</li>
                                         <li class="mb-2">Defining the user journey and creating user flows.</li>
@@ -94,10 +94,10 @@
                                     </ul>
                                 </div>
                                 <div>
-                                    <h1 class="md:text-[6rem] text-[4rem] leading-[8rem] font-bold">Develop</h1>
-                                    <div class="grid grid-cols-2">
+                                    <h1 class="md:text-[6rem] text-[4rem] leading-[8rem] uppercase">Develop</h1>
+                                    <div class="grid grid-cols-2 gap-10">
                                         <div>
-                                            <ul class="list-disc mt-10 text-lg">
+                                            <ul class="list-disc mt-10 text-lg pl-10">
                                                 <li class="mb-2">HTML</li>
                                                 <li class="mb-2">CSS</li>
                                                 <li class="mb-2">Javascript</li>
@@ -117,15 +117,15 @@
                                 <div>
                                     <section class=" ">
                                         <ul class="mt-10 text-center md:text-left">
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">  <img src="{{asset('assets/html-5.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">    <img src="{{asset('assets/css-3.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">   <img src="{{asset('assets/logo-02.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">  <img src="{{asset('assets/logo-07.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">  <img src="{{asset('assets/js.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">  <img src="{{asset('assets/logo-03.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">  <img src="{{asset('assets/illustrator.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">  <img src="{{asset('assets/photoshop.png')}}" width="50" class="inline-block" alt="" /></li>
-                                            <li class="md:mr-8 mr-3 mb-8 inline-block">  <img src="{{asset('assets/bootstrap-logo-shadow.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">  <img src="{{asset('assets/html-5.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">    <img src="{{asset('assets/css-3.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">   <img src="{{asset('assets/logo-02.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">  <img src="{{asset('assets/logo-07.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">  <img src="{{asset('assets/js.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">  <img src="{{asset('assets/logo-03.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">  <img src="{{asset('assets/illustrator.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">  <img src="{{asset('assets/photoshop.png')}}" width="50" class="inline-block" alt="" /></li>
+                                            <li class="md:mr-8 mr-2 mb-8 inline-block">  <img src="{{asset('assets/bootstrap-logo-shadow.png')}}" width="50" class="inline-block" alt="" /></li>
                                         </ul>
                                     </section>
                                 </div>

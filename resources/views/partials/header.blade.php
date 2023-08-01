@@ -1,8 +1,8 @@
 <nav class="">
-    <div class="px-5 md:px-36 overflow-hidden">
+    <div class="px-5 md:px-16 overflow-hidden">
         <div class="flex justify-between py-8 items-center">
-            <div class="text-2xl font-extrabold hover:tracking-widest transition-all animate-pulse">
-                <a href="{{ url('/') }}"> MR ANANTHU
+            <div class="text-2xl hover:tracking-widest transition-all animate-pulse">
+                <a href="{{ url('/') }}">A K
                 </a>
             </div>
 
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="hidden md:block">
-                    <ul class="flex gap-14">
+                    <ul class="flex gap-10">
                         <a href="{{ url('work') }}">
                             <li class="hover:tracking-widest transition-all uppercase text-sm">
                                 Work
@@ -45,7 +45,7 @@
                             <li class="hover:tracking-widest transition-all uppercase text-sm">
                                 Resume
                             </li>
-                            <a></a>
+                        </a>
                     </ul>
                 </div>
 
