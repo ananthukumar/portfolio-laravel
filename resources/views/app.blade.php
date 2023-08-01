@@ -39,7 +39,7 @@
         });
         
     </script>
-      <script src="{{asset('build/assets/app.js')}}"></script>
+      <!-- <script src="{{asset('build/assets/app.js')}}"></script> -->
 </body>
 
 </html>
