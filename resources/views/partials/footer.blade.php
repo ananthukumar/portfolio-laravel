@@ -1,4 +1,4 @@
-<section class=" bg-[#efefef] max-w-5xl mx-auto my-36 rounded-3xl">
+<section class=" bg-[#efefef] max-w-5xl mx-auto mt-20 mx-2 md:my-36 rounded-3xl">
     <div class="px-5 md:px-36">
         <div class="py-16 md:py-32 pb-20">
             <div class="text-center">
