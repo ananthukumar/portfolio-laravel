@@ -7,7 +7,7 @@
             </div>
 
             <div>
-                <div class=" z-50 absolute bg-black w-full h-full text-white top-0 right-0 left-0 bottom-0 overflow-hidden hidden menu__btn">
+                <div class=" z-50 fixed bg-black w-full h-full text-white top-0 right-0 left-0 bottom-0 overflow-hidden hidden menu__btn">
                     <ul class="grid place-content-center h-screen text-center gap-10">
                         <a href="{{ url('work') }}">
                             <li class="hover:tracking-widest transition-all uppercase text-5xl">

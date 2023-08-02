@@ -1,5 +1,5 @@
-<section class=" bg-[#efefef] max-w-5xl mx-auto mt-20 md:my-36 rounded-3xl">
-    <div class="px-5 md:px-36">
+<section class=" max-w-5xl mx-auto mt-20 mb-10 md:my-36 px-5">
+    <div class="px-5 md:px-36 bg-[#efefef] rounded-3xl ">
         <div class="py-16 md:py-32 pb-20">
             <div class="text-center">
                 <p class=" mb-6">Contact Me </p>

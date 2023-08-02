@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="{{asset('build/assets/app.css')}}">
     <link rel="stylesheet" href="{{asset('build/assets/app2.css')}}">
 
-    <!-- @vite('resources/js/app.js')
-    @vite('resources/css/app.css') -->
+    @vite('resources/js/app.js')
+    @vite('resources/css/app.css')
 
 </head>
 
