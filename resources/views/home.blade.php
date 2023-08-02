@@ -1,9 +1,10 @@
 @extends('app')
 @section('content')
 <section class="px-5 md:px-16 pb-20 pt-10 md:pt-5 text-center">
-    <div class="pb-10 pt-20 text-heading  gray">
-        <h1 class="text-6xl md:text-8xl text-center font-bold">Hi, I'am <span class="text-[#dbdede]">Ananthu,</span>
-            <br>UI UX Designer</h1>
+    <div class="pb-10 pt-20">
+        <h1 class="text-6xl md:text-8xl text-center font-bold ">Hi, I'am <span class="text-[#dbdede]">Ananthu,</span>
+            <br>UI UX Designer
+        </h1>
     </div>
     <a href="{{ url('work') }}">
         <button
@@ -11,7 +12,7 @@
             My Work</button>
     </a>
 
- 
+
 </section>
 
 <section class=" m-0 py-20 md:py-36 my-14 bg-black text-white">

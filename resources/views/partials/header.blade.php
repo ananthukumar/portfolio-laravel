@@ -1,6 +1,6 @@
-<nav class="">
-    <div class="px-5 md:px-16 overflow-hidden">
-        <div class="flex justify-between py-8 items-center">
+<nav class="sticky top-0 bg-white">
+    <div class="px-5 md:px-16 overflow-hidden ">
+        <div class="flex justify-between py-4 items-center">
             <div class="text-2xl hover:tracking-widest transition-all animate-pulse">
                 <a href="{{ url('/') }}">A K
                 </a>

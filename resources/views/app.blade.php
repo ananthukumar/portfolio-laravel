@@ -39,28 +39,9 @@
         });
 
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script> -->
-    <script>
-        var childSplit = new SplitText("h1", {
-            type: "lines",
-            linesClass: "split-child"
-        });
-        var parentSplit = new SplitText("h1", {
-            type: "lines",
-            linesClass: "split-parent"
-        });
-
-        gsap.from(childSplit.lines, {
-            duration: 2,
-            yPercent: 100,
-            ease: "power4",
-            stagger: 0.1,
-           
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    
 
     <!-- <script src="{{asset('build/assets/app.js')}}"></script> -->
 </body>
