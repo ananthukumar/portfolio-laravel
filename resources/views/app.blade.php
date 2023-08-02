@@ -11,8 +11,8 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('build/assets/app.css')}}">
     <link rel="stylesheet" href="{{asset('build/assets/app2.css')}}">
-<!-- 
-    @vite('resources/js/app.js')
+
+    <!-- @vite('resources/js/app.js')
     @vite('resources/css/app.css') -->
 
 </head>
