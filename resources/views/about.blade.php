@@ -2,9 +2,9 @@
 @section('content')
             <section class="px-5 md:px-36 py-10 md:py-24">
                 <div class="pb-10 md:pb-24">
-                    <div class="md:flex items-center gap-10">
+                    <div class="md:flex items-center gap-10 text-heading  gray">
                         <p class=" text-md flex gap-4 items-center pb-6 md:pb-0">About Me <span class="w-[40px] h-[1px] bg-black flex"></span></p>
-                        <h2 class="text-5xl md:text-8xl uppercase">Who am I ?</h2>
+                        <h1 class="text-5xl md:text-8xl uppercase ">Who am I ?</h1>
                     </div>
 
                     <div class="md:grid grid-cols-12 md:mt-20 mt-5">
@@ -19,9 +19,9 @@
                 </div>
 
                 <div class="md:pt-36 pt-10">
-                    <div class="md:flex items-center gap-10">
+                    <div class="md:flex items-center gap-10 text-heading">
                         <p class=" text-md flex gap-4 items-center">My Past  <span class="w-[40px] h-[1px] bg-black flex"></span></p>
-                        <h2 class="text-5xl md:text-7xl uppercase mt-5 md:mt-0">Last experience</h2>
+                        <h1 class="text-5xl md:text-7xl uppercase mt-5 md:mt-0 ">Last experience</h1>
                     </div>
 
                     <div class="md:grid grid-cols-12 mt-8 md:mt-20">

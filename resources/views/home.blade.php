@@ -18,12 +18,16 @@
 </section> -->
 
 <section class="px-5 md:px-16 pb-20 pt-10 md:pt-5 text-center">
-    <div class="pb-10 pt-20">
-        <h1 class="text-4xl md:text-8xl text-center font-bold">Hi, I'am Ananthu, <br>UI UX Designer</h1>
+    <div class="pb-10 pt-20 text-heading  gray">
+        <h1 class="text-4xl md:text-8xl text-center font-bold">Hi, I'am <span class="text-[#dbdede]">Ananthu,</span>
+            <br>UI UX Designer</h1>
     </div>
-    <button
-        class="border text-center text-xl uppercase py-3 px-8 hover:tracking-widest hover:bg-black hover:text-white ease-in-out transition-all">Explore
-        My Work</button>
+    <a href="{{ url('work') }}">
+        <button
+            class="border text-center text-xl uppercase py-3 px-8 hover:tracking-widest hover:bg-black hover:text-white ease-in-out transition-all">Explore
+            My Work</button>
+    </a>
+
     <!-- <div class="h-80">
         <img src="{{asset('assets/photo.jpg')}}" class="w-full h-full object-cover" alt="">
     </div> -->
@@ -81,7 +85,7 @@
         </div>
     </div>
 </section>
-<section class="py-14">
+<!-- <section class="py-14">
     <div class="text-content gap-10 flex items-center overflow-hidden relative">
         <div class="text-8xl uppercase flex-none">UI UX DESIGNER</div>
         <div class="dot w-5 h-5 bg-black rounded-full block flex-none"></div>
@@ -97,7 +101,7 @@
         <div class="text-8xl uppercase flex-none">UI UX DESIGNER</div>
         <div class="dot w-5 h-5 bg-black rounded-full block flex-none"></div>
     </div>
-</section>
+</section> -->
 
 <section class="pt-36">
     <div class="px-5 md:px-16">

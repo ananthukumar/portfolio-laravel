@@ -1,5 +1,6 @@
 .body {
     background: #efefef;
+    color: #333;
 }
 
 .style__show {
@@ -9,7 +10,7 @@
         &:hover {
             -webkit-transform: skew(-10deg);
             transform: skew(-2deg);
-            
+
 
             img {
                 scale: 1.1;
@@ -38,4 +39,14 @@
         transform: translate(10px, 10px);
 
     }
+}
+
+h1 {
+    overflow: hidden;
+}
+.split-parent {
+    overflow: hidden;
+}
+.split-child {
+    display: inline-block;
 }

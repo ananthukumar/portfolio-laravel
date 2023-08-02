@@ -9,8 +9,8 @@
                     <p class=" text-md flex gap-4 items-center">Projects <span
                             class="w-[40px] h-[1px] bg-black flex"></span></p>
                 </div>
-                <div class="">
-                    <h2 class="text-5xl md:text-[6rem] uppercase md:leading-[130px] pb-5 md:pb-0">Portfolio</h2>
+                <div class="text-heading  gray">
+                    <h1 class="text-5xl md:text-[6rem] uppercase md:leading-[130px] pb-5 md:pb-0">Portfolio</h1>
                     <p class="md:mt-5 max-w-xl text-lg md:text-xl">A UI/UX designer passionate about creating simple yet
                         innovative experiences for users.
                     </p>
