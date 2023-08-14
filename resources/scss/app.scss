@@ -27,9 +27,9 @@
 
 .card__wrap .zoom__img {
     // filter: grayscale(100%);
-    will-change: transform;
-    transform: translate3d(0px, 0px, 0px) scale3d(0.862294, 0.862294, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(11deg, -3deg);
-    transform-style: preserve-3d;
+    // will-change: transform;
+    // transform: translate3d(0px, 0px, 0px) scale3d(0.862294, 0.862294, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(11deg, -3deg);
+    // transform-style: preserve-3d;
     transition: 1s;
 
     &:hover {
@@ -40,3 +40,4 @@
 
     }
 }
+

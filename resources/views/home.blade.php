@@ -2,7 +2,8 @@
 @section('content')
 <section class="px-5 md:px-16 pb-20 pt-10 md:pt-5 text-center">
     <div class="pb-10 pt-20">
-        <h1 class="text-6xl md:text-8xl text-center font-bold ">Hi, I'am <span class="text-[#dbdede]">Ananthu,</span>
+        <h1 class="text-6xl md:text-8xl text-center font-bold text_ani">
+            Hi, I'am <span class="text-[#dbdede]">Ananthu,</span>
             <br>UI UX Designer
         </h1>
     </div>
