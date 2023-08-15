@@ -2,9 +2,9 @@
 @section('content')
             <section class="px-5 md:px-36 py-10 md:py-24">
                 <div class="pb-10 md:pb-24">
-                    <div class="md:flex items-center gap-10 text-heading  gray">
+                    <div class="md:flex items-center gap-10 text-heading  gray" >
                         <p class=" text-md flex gap-4 items-center pb-6 md:pb-0">About Me <span class="w-[40px] h-[1px] bg-black flex"></span></p>
-                        <h1 class="text-5xl md:text-8xl uppercase ">Who am I ?</h1>
+                        <h1 class="text-5xl md:text-8xl uppercase " id="content">Who am I ?</h1>
                     </div>
 
                     <div class="md:grid grid-cols-12 md:mt-20 mt-5">
@@ -21,7 +21,7 @@
                 <div class="md:pt-36 pt-10">
                     <div class="md:flex items-center gap-10 text-heading">
                         <p class=" text-md flex gap-4 items-center">My Past  <span class="w-[40px] h-[1px] bg-black flex"></span></p>
-                        <h1 class="text-5xl md:text-7xl uppercase mt-5 md:mt-0 ">Last experience</h1>
+                        <h1 class="text-5xl md:text-7xl uppercase mt-5 md:mt-0 fadeUp">Last experience</h1>
                     </div>
 
                     <div class="md:grid grid-cols-12 mt-8 md:mt-20">
@@ -74,7 +74,7 @@
                             </div>
                             <div class="md:col-span-10 md:grid grid-cols-2 gap-16">
                                 <div>
-                                    <h1 class="text-[8rem] leading-[8rem] uppercase">UI</h1>
+                                    <h1 class="text-[8rem] leading-[8rem] uppercase fadeUp">UI</h1>
                                     <ul class="list-disc mt-10 text-lg">
                                         <li class="mb-2">Creating wireframes, prototypes, and high-fidelity mockups.</li>
                                         <li class="mb-2">Selecting typography, colors, and other visual elements.</li>
@@ -84,7 +84,7 @@
                                     </ul>
                                 </div>
                                 <div>
-                                    <h1 class="text-[8rem] leading-[8rem] uppercase">UX</h1>
+                                    <h1 class="text-[8rem] leading-[8rem] uppercase fadeUp">UX</h1>
                                     <ul class="list-disc mt-10 text-lg">
                                         <li class="mb-2">Improving the overall user experience of digital products.</li>
                                         <li class="mb-2">Defining the user journey and creating user flows.</li>

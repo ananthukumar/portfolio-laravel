@@ -2,10 +2,14 @@
 @section('content')
 <section class="px-5 md:px-16 pb-20 pt-10 md:pt-5 text-center">
     <div class="pb-10 pt-20">
-        <h1 class="text-6xl md:text-8xl text-center font-bold text_ani">
-            Hi, I'am <span class="text-[#dbdede]">Ananthu,</span>
-            <br>UI UX Designer
-        </h1>
+
+        <div class="" id="content">
+            <h1 class="text-6xl md:text-8xl text-center  font-bold text_ani">
+                Hi, I'am <span class="text-[#dbdede]">Ananthu,</span>
+                <br> UI UX Designer
+            </h1>
+        </div>
+
     </div>
     <a href="{{ url('work') }}">
         <button
@@ -19,7 +23,7 @@
 <section class=" m-0 py-20 md:py-36 my-14 bg-black text-white">
     <div class="px-5 md:px-36 gap-10">
         <div class="">
-            <h2 class="text-3xl md:text-[36px] leading-[50px] text-medium text-center">
+            <h2 class="text-3xl md:text-[36px] leading-[50px] text-medium text-center fadeUp">
                 "As a designer I believe in solving problems with intuitive, purposeful design. I’m driven when creating
                 products and experiences that elevate our lives and communities."
             </h2>
@@ -28,10 +32,10 @@
 </section>
 
 
-<section class="pt-14 md:pt-36">
+<section class="pt-14 md:pt-36 ">
     <div class="px-5 md:px-16">
         <div class="flex justify-between items-center">
-            <h2 class="text-3xl md:text-7xl font-semibold">My Works</h2>
+            <h2 class="text-3xl md:text-7xl font-semibold fadeUp">My Works</h2>
             </p>
         </div>
 

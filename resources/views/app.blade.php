@@ -11,8 +11,8 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="{{asset('build/assets/app.css')}}">
     <link rel="stylesheet" href="{{asset('build/assets/app2.css')}}">
-
-    <!-- @vite('resources/js/app.js')
+<!-- 
+    @vite('resources/js/app.js')
     @vite('resources/css/app.css') -->
 
 </head>
@@ -39,10 +39,38 @@
         });
 
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
-    
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+
+    <script>
+        const tl = gsap.timeline();
+        tl.from(".line h1", 1.8, {
+            y: 100,
+            ease: "power4.out",
+            delay: 0.1,
+            skewY: 7,
+            stagger: {
+                amount: 0.3
+            }
+        })
+
+        var content = document.getElementById('content');
+        TweenMax.fromTo(content, 1, { opacity: 0, y: 50 }, { opacity: 1, y: 0 });
+
+        const boxes = gsap.utils.toArray('.fadeUp');
+        boxes.forEach((box, i) => {
+            const anim = gsap.fromTo(box, { autoAlpha: 0, y: 50 }, { duration: 1, autoAlpha: 1, y: 0 });
+            ScrollTrigger.create({
+                trigger: box,
+                animation: anim,
+                toggleActions: 'play none none reverse',
+                once: true,
+
+            });
+        });
+    </script>
+
+
 
     <!-- <script src="{{asset('build/assets/app.js')}}"></script> -->
 </body>
